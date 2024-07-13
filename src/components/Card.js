@@ -13,7 +13,7 @@ function Card({id,image,info,price,name,removeTour}) {
     
 
     return(
-        <div className=" card w-[400px] flex flex-col max-h-max m-[1rem] p-[1rem] rounded-xl items-center ">
+        <div className=" card w-[400px] flex flex-col max-h-max m-[1rem] p-[1rem] rounded-xl items-center hover:scale-105 transition-all duration-300 ease-in-out">
             <img src={image} className="w-[380px] aspect-square" alt=""></img>
             <div className="tour-info mx-5 my-[5px]">
             <h4 className="tour-name font-bold text-[1.5rem]  text-gray-700">{name} </h4>
